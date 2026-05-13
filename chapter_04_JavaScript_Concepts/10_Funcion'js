@@ -1,0 +1,13 @@
+// we will use function for repeatate task
+// 1.Define of function
+function great() {
+    console.log("Hi,How are you");
+}
+// 2.Calling the function
+great();
+great();
+great();
+great();
+great();
+great();
+
