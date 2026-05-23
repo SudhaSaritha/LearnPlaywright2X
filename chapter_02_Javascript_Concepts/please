@@ -1,0 +1,7 @@
+var name = "Sarita";
+//camel case->first letter is small and second word first letter is big
+var firstName = "Sudha";
+var lastName = "Sarita";
+
+//snake case
+var first_name = "Sudha";

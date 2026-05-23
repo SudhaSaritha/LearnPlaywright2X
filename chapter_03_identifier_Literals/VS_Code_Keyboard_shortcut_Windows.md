@@ -1,3 +1,5 @@
+/*VS_Code_Keyboard_shortcut_Windows.md->md is the mark down language means normal text with format*/
+
 # Visual Studio Code Default Shortcuts (Windows)
 
 | Category | Shortcut | Action |

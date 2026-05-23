@@ -1,21 +1,28 @@
+var name = "sarita"
+
+//camel case->first letter is small and second word first letter is big
+var firstName = "Sudha";
+var lastName = "Sarita";
+
+//snake case
+var first_name = "Sudha";
+
+
 // Naming Conventions (Cases) in JavaScript
 
 // 1. camelCase (most common in JS - variables, functions)
 var firstName = "John";
 var lastName = "Doe";
-var totalAmount = 100;
-function getUserName() { return firstName; }
+var totalAmount = 100
 
-// 2. snake_case (used in some languages, rare in JS)
+
+// 4. PascalCase (used for classes / constructors)
+var FirstName = "John"; // not typical usage
+
+// 3. snake_case (used in some languages, rare in JS)
 var first_name = "John";
 var last_name = "Doe";
 var total_amount = 100;
-function get_user_name() { return first_name; }
-
-// 3. PascalCase (used for classes / constructors)
-var FirstName = "John"; // not typical usage
-function Person() { this.name = "John"; }
-function UserAccount() { return "account"; }
 
 // 4. UPPER_SNAKE_CASE / SCREAMING_SNAKE_CASE (constants)
 var MAX_VALUE = 100;
@@ -31,13 +38,13 @@ var total = 200;
 var strName = "John";      // string
 var numCount = 10;         // number
 var arrItems = [1, 2, 3];  // array
-var fnCallback = function() {}; // function
+var fnCallback = function () { }; // function
 var bIsValid = true;       // boolean
 var objPerson = {};        // object
 
 // 7. _camelCase with underscore prefix (internal/private convention)
 var _privateVar = "hidden";
-var _internalFn = function() { return "internal"; };
+
 
 // 8. __dunder__ (double underscore - Python style, rarely in JS)
 var __internal__ = "dunder value";
@@ -57,8 +64,8 @@ var totalamount = 100;
 
 // 13. Mixed / abbreviated
 var getURL = "https://example.com";
-var parseHTML = function() {};
-var convertToJSON = function() {};
+var parseHTML = function () { };
+var convertToJSON = function () { };
 
 // Comparison: same name in different cases
 // camelCase:    firstName
